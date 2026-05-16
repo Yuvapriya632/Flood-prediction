@@ -1,8 +1,6 @@
-````md
 # 🌊 Flood Prediction Using Machine Learning
 
-This project is a **Machine Learning-based Flood Prediction System** developed using Python and Django.  
-The model predicts whether a flood may occur based on historical monthly rainfall-related data.
+This project is a **Machine Learning-based Flood Prediction System** developed using **Python** and **Django**. The model predicts whether a flood may occur based on historical monthly rainfall-related data.
 
 ---
 
@@ -10,8 +8,7 @@ The model predicts whether a flood may occur based on historical monthly rainfal
 
 The main objective of this project is to analyze historical flood-related data and predict flood occurrence using Machine Learning algorithms.
 
-The project includes:
-
+## Project Modules
 - Data Preprocessing
 - Data Visualization
 - Feature Selection
@@ -70,64 +67,57 @@ FLOOD/
 │   ├── manage.py
 │   ├── py3.11.4.txt
 │   └── requirements.txt
-````
+```
 
 ---
 
 # 📊 Machine Learning Workflow
 
 ## 1️⃣ Dataset Collection
-
-* Dataset collected from Kaggle
-* Historical flood and rainfall-related data used
+- Dataset collected from Kaggle
+- Historical flood and rainfall-related data used
 
 ## 2️⃣ Data Preprocessing
-
-* Handling missing values
-* Checking duplicates
-* Data cleaning
-* Feature extraction
+- Handling missing values
+- Removing duplicate values
+- Data cleaning
+- Feature extraction
 
 ## 3️⃣ Feature Selection
-
-* Selecting input (X) and output (Y)
-* Splitting dataset into train and test sets
+- Selecting input (X) and output (Y)
+- Splitting dataset into train and test sets
 
 ## 4️⃣ Model Training
 
-Algorithms Used:
-
-* K-Nearest Neighbors (KNN)
-* Gaussian Naive Bayes (GNB)
-* Support Vector Classifier (SVC)
+### Algorithms Used
+- K-Nearest Neighbors (KNN)
+- Gaussian Naive Bayes (GNB)
+- Support Vector Classifier (SVC)
 
 ### ✅ Accuracy Results
 
-| Algorithm  | Accuracy |
-| ---------- | -------- |
-| KNN        | 97%      |
-| SVC        | 95%      |
-| GaussianNB | 87%      |
+| Algorithm | Accuracy |
+|----------|----------|
+| KNN | 97% |
+| SVC | 95% |
+| GaussianNB | 87% |
 
 ## 5️⃣ Model Saving
-
-* Best model saved using `pickle`
-* Saved file: `KNN.pkl`
+- Best model saved using `pickle`
+- Saved file: `KNN.pkl`
 
 ---
 
 # 📈 Data Visualization
 
-Visualization libraries used:
+## Libraries Used
+- Matplotlib
+- Seaborn
 
-* Matplotlib
-* Seaborn
-
-Visualizations include:
-
-* Heatmaps
-* Dataset analysis plots
-* Flood occurrence patterns
+## Visualizations
+- Heatmaps
+- Dataset analysis plots
+- Flood occurrence patterns
 
 ---
 
@@ -139,15 +129,11 @@ Visualizations include:
 git clone <your-github-repository-link>
 ```
 
----
-
 ## 2️⃣ Navigate to Project Folder
 
 ```bash
 cd FLOOD/frontend
 ```
-
----
 
 ## 3️⃣ Create Virtual Environment
 
@@ -155,31 +141,23 @@ cd FLOOD/frontend
 python -m venv env
 ```
 
----
-
 ## 4️⃣ Activate Virtual Environment
 
 ### Windows
-
 ```bash
 env\Scripts\activate
 ```
 
 ### Mac/Linux
-
 ```bash
 source env/bin/activate
 ```
-
----
 
 ## 5️⃣ Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 6️⃣ Run the Server
 
@@ -208,28 +186,28 @@ http://127.0.0.1:8000/
 
 # 📷 Features
 
-✅ User Authentication
-✅ Flood Prediction System
-✅ Machine Learning Integration
-✅ Django Web Interface
-✅ Saved ML Model
-✅ Data Visualization
+✅ User Authentication  
+✅ Flood Prediction System  
+✅ Machine Learning Integration  
+✅ Django Web Interface  
+✅ Saved ML Model  
+✅ Data Visualization  
 
 ---
 
 # 📌 Future Improvements
 
-* Deploy project on cloud platform
-* Add live rainfall API integration
-* Improve dataset size
-* Add deep learning models
-* Real-time flood alerts
+- Deploy project on cloud platform
+- Add live rainfall API integration
+- Improve dataset size
+- Add deep learning models
+- Real-time flood alerts
 
 ---
 
 # 👩‍💻 Author
 
-**Yuvapriya S.**
+**Yuvapriya S.**  
 AI & ML Engineer | Data Science Enthusiast
 
 ---
@@ -239,13 +217,9 @@ AI & ML Engineer | Data Science Enthusiast
 This project demonstrates the complete Machine Learning workflow from dataset collection to deployment using Django and Scikit-learn.
 
 It is a beginner-friendly project for understanding:
-
-* Machine Learning
-* Data Preprocessing
-* Model Training
-* Deployment Integration
+- Machine Learning
+- Data Preprocessing
+- Model Training
+- Deployment Integration
 
 ---
-
-```
-```
